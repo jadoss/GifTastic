@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GiphyAPI</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div id="title"><h1>DragonBall Giphy API</h1></div>
+	<div id="instructions">Click On Your Favorite Dragonball Character to generate 10 gifs. Add a character through the Add A Character Search Bar. Each gif gets a rating from G, PG, R and etc - so get your Parents to leave the room before viewing.<br><br></div>
+	<div id='characterButtons'></div><br>
+	<div id='characterSearch'>
+		<form id="character-form">
+	    <label for="character-input">Add a character:</label>
+	    <input type="text" id="character-input">
+	    <input id="addCharacter" type="submit" value="Click Me!">
+  </form>
+	</div>
+	<div id='characterGifs'></div>
+	<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+	<script src='assets/javascript/app.js'></script>
+</body>
+</html>
